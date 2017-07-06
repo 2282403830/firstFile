@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/*页面背景图部分start*/
+.content {
+    width: 100%;
+}
+.content .bj {
+    width: 1349px;
+    height: 715px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*display: none;*/
+    position: relative;
+}
+.content .bj .flower {
+    width: 913px;
+    height: 913px;
+    margin: 0 auto;
+}
+.content .bj .flower #logo {
+    width: 143px;
+    height: 110px;
+    position: absolute;
+    top: 20px;
+    left: -145px;
+}
+.content .bj .flower .gw {
+    width: 182px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: -200px;
+}
+.content .bj .flower .gw .home:hover {
+    opacity:.8;
+}
+.content .bj .flower .shanzi {
+    width: 807px;
+    height: 613px;
+    background: url("../images/shanzi.png") no-repeat;
+    position: absolute;
+    top: -670px;
+    left: 270px;
+}
+.content .bj .flower .people {
+    width: 1330px;
+    height: 775px;
+    position: absolute;
+    left: -26px;
+    top: 20px;
+    opacity: 0;
+}
+.content .bj .flower .sub {
+    width: 136px;
+    height: 203px;
+    position: absolute;
+    bottom: -207px;
+    right: 75px;
+}
+.content .bj .flower .sub .ewm #line {
+    position: absolute;
+    left: 15px;
+    top: -12px;
+}
+.content .bj .flower .sub .ewm {
+    margin: 0 14px;
+}
+.content .bj .flower .sub .ios,.andrid {
+    margin-top: 5px;
+}
+/*页面背景图部分end*/
+/*页面图片列表部分start*/
+.middle {
+    width: 100%;
+}
+.middle .bg {
+    width: 1349px;
+    height: 1919px;
+    margin: 0 auto;
+    position: relative;
+    /*background: url("../images/fd.jpg") no-repeat;*/
+}
+.middle .bg #jy {
+    width: 754px;
+    height: 428px;
+    display: block;
+    position: absolute;
+    left: 290px;
+    top: -110px;
+}
+.middle .bg .newinf {
+    width: 1200px;
+    height: 839px;
+    margin: 0 auto;
+    position: absolute;
+    /*background-color: green;*/
+    left: 80px;
+    top: 340px;
+    /*background: url("../images/newinf_title.png") no-repeat;*/
+}
+.middle .bg .newinf img {
+    position: absolute;
+    left: 235px;
+}
+.middle .bg .newinf #person {
+    width: 1200px;
+    height: 734px;
+    margin: 0 auto;
+    position: relative;
+    /*background-color: gold;*/
+    /*left: 0;*/
+    /*top: 105px;*/
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.middle .bg .newinf #person .top {
+    width: 100%;
+    height: 0;
+}
+.middle .bg .newinf #person .top a.t1 {
+    position: absolute;
+    left: -251px;
+    top: 0;
+}
+.middle .bg .newinf #person .top a.t1 i {
+    display: inline-block;
+    width: 132px;
+    position: absolute;
+    left: 275px;
+    top: 135px;
+    color: #88661e;
+    font-size: 16px;
+}
+.middle .bg .newinf #person .top a.t2 {
+    position: absolute;
+    left: 57px;
+    top: 0;
+}
+.middle .bg .newinf #person .top a.t2 i {
+    display: inline-block;
+    width: 145px;
+    position: absolute;
+    left: 275px;
+    top: 135px;
+    color: #88661e;
+    font-size: 16px;
+}
+.middle .bg .newinf #person .top a.t3 {
+    position: absolute;
+    left: 360px;
+    top: 0;
+}
+.middle .bg .newinf #person .top a.t3 i {
+    display: inline-block;
+    width: 145px;
+    position: absolute;
+    left: 275px;
+    top: 135px;
+    color: #88661e;
+    font-size: 16px;
+}
+.middle .bg .newinf #person .top a.t4 {
+    position: absolute;
+    left: 635px;
+    top: 0;
+}
+.middle .bg .newinf #person .top a.t4 i {
+    display: inline-block;
+    width: 145px;
+    position: absolute;
+    left: 275px;
+    top: 135px;
+    color: #88661e;
+    font-size: 16px;
+}
+.middle .bg .newinf #person .bottom {
+width: 1046px;
+height: 357px;
+/*background-color: green;*/
+/*background-color: rgba(225,225,225,.8);*/
+/*position: relative;*/
+/*margin-top: 377px;*/
+/*margin-left: 154px;*/
+position: absolute;
+right: 0;
+bottom: 0;
+}
+.middle .bg .newinf #person .bottom a.t5 {
+    position: absolute;
+    left: -234px;
+    bottom: 357px;
+}
+.middle .bg .newinf #person .bottom a.t5 i {
+    display: inline-block;
+    width: 145px;
+    position: absolute;
+    left: 275px;
+    top: 135px;
+    color: #88661e;
+    font-size: 16px;
+}
+.middle .bg .newinf #person .bottom a.t6 {
+    position: absolute;
+    right: 695px;
+    bottom: 357px;
+}
+.middle .bg .newinf #person .bottom a.t6 i {
+    display: inline-block;
+    width: 145px;
+    position: absolute;
+    left: 275px;
+    top: 135px;
+    color: #88661e;
+    font-size: 16px;
+}
+/*页面图片列表部分end*/
+/*页面旋转木马start*/
+.middle .bg .gamegood {
+    width: 1200px;
+    height: 545px;
+    margin: 120px 0 auto;
+    position: absolute;
+    left: 80px;
+    top: 1178px;
+    /*background-color: gold;*/
+}
+.middle .bg .gamegood .goodtitle {
+    width: 730px;
+    height: 47px;
+    background: url("../images/gamestyle.png") no-repeat;
+    margin: 0 auto;
+}
+.gamegood #lb {
+    width: 930px;
+    position: relative;
+}
+.gamegood #lb li {
+    position: absolute;
+    left: 205px;
+    top: 80px;
+}
+#lb li img{
+    width:100%;
+    height: 100%;
+}
+.gamegood #lb #left {
+    width: 42px;
+    height: 82px;
+    display: block;
+    background: url("../images/leftBtn.png") no-repeat;
+    position: absolute;
+    left: 30px;
+    top: 285px;
+}
+.gamegood #right {
+    width: 42px;
+    height: 82px;
+    display: block;
+    background: url("../images/rightBtn.png") no-repeat;
+    position: absolute;
+    right: -230px;
+    top: 285px;
+}
+.gamegood #left:hover, .gamegood #right:hover {
+    opacity: .6;
+}
+
+/*页面旋转木马end*/
+/*页面的底部start*/
+.foot {
+    width: 100%;
+}
+.foot .bj {
+    width: 1349px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: url("../images/bottom-bg.png") no-repeat;
+}
+/*页面的底部end*/
